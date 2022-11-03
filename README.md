@@ -1,5 +1,15 @@
 # streamlit_dataquality_checker_hackathon
 
+
+## Goal: Check your snowflake tables for data quality
+
+### Implementation: 
+
+Checks snowflake table for missing data. Current threshold for percent of null values in table is 30 percent. Clicking Apply Tags button creates a quality_score tag in snowflake and assigns to columns that have > 30 percent null. (Note tags cannot be applied to datashare objects)
+
+
+### Prerequistes:
+
 1. Update .streamlit/secrets.toml file with your snowflake connection details.
 2. pip install -r requirements.txt
 3. streamlit run dataquality.py
