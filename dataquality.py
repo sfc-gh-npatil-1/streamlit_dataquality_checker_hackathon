@@ -208,10 +208,6 @@ def main():
                 st.write(tagdf)
                 st.write("Tags applied in Snowflake ❄️!")
 
-            # else:
-            #     tagdf = run_query(
-            #         "select * from table(datashare_tko_demo.information_schema.tag_references_all_columns('{}', 'table'));".format(table))
-            #     st.write("Check Sn")
 
     st.markdown("---")
 
