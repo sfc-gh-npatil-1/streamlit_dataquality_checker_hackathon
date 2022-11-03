@@ -10,7 +10,7 @@ Checks snowflake table for missing data. Current threshold for percent of null v
 
 ### Prerequistes:
 
-1. Update .streamlit/secrets.toml file with your snowflake connection details. App requires a role with priveleges to create a procedure and add tags in the selected schema if you want to apply tags.
+1. Update .streamlit/secrets.toml file with your snowflake connection details. App requires a role with priveleges to create a javascript procedure and add tags in the selected schema if you want to apply tags.
 2. pip install -r requirements.txt
 3. streamlit run dataquality.py
 
