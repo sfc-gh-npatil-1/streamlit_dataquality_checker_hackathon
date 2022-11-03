@@ -1,6 +1,6 @@
 # streamlit_dataquality_checker_hackathon
 
-1. Update secrets.toml file with your snowflake connection details.
+1. Update .streamlit/secrets.toml file with your snowflake connection details.
 2. pip install -r requirements.txt
 3. streamlit run dataquality.py
 
