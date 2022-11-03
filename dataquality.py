@@ -27,6 +27,7 @@ def run_query_select(query):
         return my_df
 
 #separate function for non select SQL commands, because fetch_pandas_all only supports select statements
+@st.experimental_memo(ttl=600)
 def run_query(query):
     with conn.cursor() as cur:
         cur.execute(query)
